@@ -1,0 +1,67 @@
+{
+  "id" : "https://onceuponamiuu.github.io/miumiu/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in onceuponamiuu/miumiu project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1292,
+    "id" : "https://onceuponamiuu.github.io/miumiu/images/Photo/canvas/",
+    "label" : {
+      "none" : [ "Photo" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://onceuponamiuu.github.io/miumiu/images/Photo/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://onceuponamiuu.github.io/miumiu/images/Photo/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 41,
+              "height" : 52
+            }, {
+              "width" : 81,
+              "height" : 103
+            }, {
+              "width" : 162,
+              "height" : 206
+            }, {
+              "width" : 323,
+              "height" : 412
+            }, {
+              "width" : 646,
+              "height" : 823
+            }, {
+              "width" : 1292,
+              "height" : 1646
+            } ],
+            "profile" : "level0",
+            "width" : 1292,
+            "id" : "https://onceuponamiuu.github.io/miumiu/images/Photo",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 1646
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1292,
+          "id" : "https://onceuponamiuu.github.io/miumiu/images/Photo/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 1646
+        },
+        "target" : "https://onceuponamiuu.github.io/miumiu/images/Photo/canvas/"
+      } ]
+    } ],
+    "height" : 1646
+  } ]
+}
